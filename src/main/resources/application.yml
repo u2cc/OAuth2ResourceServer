@@ -1,0 +1,9 @@
+server:
+  port: 60000
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8282/oauth2/jwks
